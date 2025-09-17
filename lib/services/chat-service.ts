@@ -43,7 +43,7 @@ export interface ChatSession {
 const CHAT_SESSIONS_KEY = 'chatSessions';
 const CURRENT_CHAT_ID_KEY = 'currentChatId';
 
-const BASE_URL = process.env.BASE_URL;
+const BASE_URL = 'http://16.171.140.198:5000';
 
 export async function getChatHistory(
   sessionId: string
